@@ -1,4 +1,5 @@
 header {
+    background-color: #ffffff;
     overflow: auto;
     border-bottom: 2px solid #cccccc;
 }
@@ -9,15 +10,38 @@ header::after {
     clear: both;
 }
 
-h1 {
-    background-color: #32a088;
+h1,
+h2 {
+    font-family: Georgia, Times, 'Times New Roman', Times, serif;
+}
+
+nav, 
+p {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.group {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.container {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;  
+    box-sizing: border-box;
+    margin: 30px auto;
+    width: 960px;
+}
+
+.logo {
+    background-color: #4aaaa5;
     width: 280px;
-    color: white;
+    color: #ffffff;
     padding: 20px;
-    margin: 0 160px;
     text-align: center;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 900;
     float: left;
 }
 
@@ -26,73 +50,79 @@ h1 {
 }
 
 .nav li {
-   position: relative;
-   right: 150px;
    display: inline-block;
-   margin: 20px;
-}
-
-.group {
-
-}
-
-.container {
-    background-color: #d6dada;
-    padding: 20px 160px 20px 160px;
-    margin: 0 auto;
+   padding: 20px;
+   
 }
 
 .box {
-    border: 1px solid #888888;
-    background-color: white;
-    width: 800px;
-    padding: 20px;
-    margin: 0 auto;
+    margin: 20px;
 }
-
 .box-top {
-    border-bottom: 2px solid #9799a7;
-    padding: 10px;
-    margin: 10px 0;
+    border-bottom: 2px solid #dddddd;
+    margin: 20px;
 }
 
 h2 {
-    background-color: white;
-    color: #32a088;
-    font-size: 22px;
+    color: #4aaaa5;
+    font-size: 20px;
     text-align: left;
-    text-transform: 800;
+    font-weight: 900;
+    padding: 20px 0;
 }
 
 img {
-    height: 150px;
-    width: 200px;
-    margin: 0 20px;
+    height: 170px;
+    width: 140px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     float: left;
 }
 
 p {
+    color: #777777;
     margin: 20px;
 }
 
 a {
-    color: #648880;
+    color: #777777;
     text-decoration: none;
   }
 
 a:hover {
-    color: #a9b2b9;
+    color: #4aaaa5;
   }
 
 footer {
-    background-color: #888888;
+    background-color: #666666;
     padding: 10px;
     font-size: 10px;
     text-align: center;
-    border-top: 5px solid #32a088;
+    border-top: 5px solid #4aaaa5;
 }
 
-input {
-    width: 800px;
-    margin: 0 auto;
+h3 {
+    padding: 10px 0;
+}
+#name,
+#email,
+#message {
+    width: 900px;
+}
+
+#name,
+#email {
+    height: 30px;
+}
+
+#message {
+    height: 120px;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
 }
