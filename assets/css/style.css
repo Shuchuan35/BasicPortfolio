@@ -1,5 +1,6 @@
 header {
-    border-bottom: 2px solid #888888;
+    overflow: auto;
+    border-bottom: 2px solid #cccccc;
 }
 
 header::after {
@@ -37,7 +38,8 @@ h1 {
 
 .container {
     background-color: #d6dada;
-    padding: 50px 160px 120px 160px;
+    padding: 20px 160px 20px 160px;
+    margin: 0 auto;
 }
 
 .box {
@@ -51,7 +53,7 @@ h1 {
 .box-top {
     border-bottom: 2px solid #9799a7;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 h2 {
@@ -88,4 +90,9 @@ footer {
     font-size: 10px;
     text-align: center;
     border-top: 5px solid #32a088;
+}
+
+input {
+    width: 800px;
+    margin: 0 auto;
 }
