@@ -1,3 +1,7 @@
+body {
+    background-image: url("white-waves.png");
+}
+
 header {
     background-color: #ffffff;
     overflow: auto;
@@ -32,6 +36,8 @@ p {
     box-sizing: border-box;
     margin: 30px auto;
     width: 960px;
+    overflow: auto;
+    
 }
 
 .logo {
@@ -71,7 +77,7 @@ h2 {
     padding: 20px 0;
 }
 
-img {
+#profile-pic {
     height: 170px;
     width: 140px;
     margin-right: 20px;
@@ -104,6 +110,7 @@ footer {
 h3 {
     padding: 10px 0;
 }
+
 #name,
 #email,
 #message {
@@ -126,3 +133,62 @@ button {
     padding: 10px 20px;
     font-size: 16px;
 }
+
+.image {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.pic {
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+    z-index: -1;
+}
+
+.pic-hangman {
+    float: left;
+}
+
+.hangman,
+.rpg,
+.game,
+.widget,
+.rps {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 10px;
+    text-align: center;
+}
+.hangman {
+    top: 180px;
+}
+.rpg {
+    top: 180px;
+    left: 320px;
+}
+.game {
+    top: 455px;
+    
+}
+.widget {
+    top: 455px;
+    left: 320px;
+}
+.rps {
+    top: 725px;
+}
+/*
+.banner {
+    width: 330px;
+    height: 80px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+   z-index: 1;
+}
+
+*/
